@@ -77,40 +77,65 @@ The application results presented in Section 5 of the article can be reproduced 
 
 Step 1. Set your working directory to the folder where the file auxiliary functions.R and the dataset data_breast_cancer.csv are located.
 Step 2. Source the auxiliary functions file:
+```r
 source("auxiliary_functions.R")
+
+```
 Step 3. Load the dataset:
+```r
 data_BC <- read.csv("data_breast_cancer.csv", sep = ",")
+
+```
 
 Reproducing Table 4 – Section 5 (Application to medical dataset)
 Step 4 (option A – full analysis).
 Source the file:
+```r
 source("application_breast_cancer_table_selection_criteria.R")
+
+```
 
 Step 4 (option B – precomputed results).
 Alternatively, load the RData file provided by the authors:
+```r
 load("Application-Table-Selection_criteria.RData")
 
+```
 Then run:
+```r
 criterios_df
 
+```
 Reproducing Tables 5, 6 and 7, and Figures 2, 3, 4 and 5 – Section 5
 
 Step 5 (option A – full analysis).
 Source the file:
+```r
 source("Application_breast_cancer-MPIGcr and PTcr.R")
 
+```
+
 Step 6.
 Source the file:
+```r
 source("Application_breast_cancer_tables_figures.R")
 
+```
 or
+
 Step 5 (option B – precomputed results).
 Alternatively, load the RData file provided by the authors:
+```r
 load("Application_breast_cancer_MPIG_POISSON.RData")
+
+```
 
 Step 6.
 Source the file:
+```r
 source("Application_breast_cancer_tables_figures.R")
+
+```
 
 All Tables (5, 6 and 7) and Figures (2, 3, 4 and 5) will be saved in the working directory where the files auxiliary_functions.R and data_breast_cancer.csv are located.
 

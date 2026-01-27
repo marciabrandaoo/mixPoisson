@@ -11,49 +11,68 @@ To reproduce the corresponding results of application and simulation studies in 
 
 
 
--------------------------------------------------------------------
-Reproducibility – Simulation Study (Section 4)
--------------------------------------------------------------------
-
+## Reproducibility – Simulation Study (Section 4)
+ 
 The simulation study described in Section 4 of the article can be reproduced by running the scripts below in the specified order.
 
 Step 1. Set your working directory to the folder where the file auxiliary functions.R is located.
 
 Step 2. Source the auxiliary functions file:
+
+```r
 source("auxiliary functions.R")
+
+```
+
 
 Reproducing Tables 1 and 2 – Section 4.1 (Performance of the ML estimators in finite samples)
 
 Step 3 (option A – full simulation). Source the file:
+```r
 source("Simulator - Performance of the ML estimators in finite samples.R")
 
+```
+
 Step 3 (option B – precomputed results). Alternatively, load the RData file provided by the authors:
+```r
 load("MC-Study-MPIG_MNBcr.RData")
 
+```
+
 Then run:
+```r
 sim_MC_results1
 sim_MC_results2
 
+```
+
 Reproducing Table 3 – Section 4.2 (Misspecification model)
 Step 4 (option A – full simulation). Source the file:
+```r
 source("Simulator - Misspecification model.R")
 
+```
+
 Step 4 (option B – precomputed results). Alternatively, load the RData file provided by the authors:
+```r
 load("MC-Study-Misspecification-MIG-MGA-POI.RData")
 
+```
+
 Then run:
+```r
 resumo_all
 
-Random Seeds and Reproducibility
+```
+
+## Random Seeds and Reproducibility
 All simulation scripts set fixed random seeds at the beginning of execution to ensure full reproducibility of the results. The seed values are explicitly defined within each script.
 
 
 
 
--------------------------------------------------------------------
-Reproducibility – Application (Section 5)
--------------------------------------------------------------------
-
+## Reproducibility – Application (Section 5)
+ 
 The application results presented in Section 5 of the article can be reproduced by running the scripts below in the specified order.
 
 Step 1. Set your working directory to the folder where the file auxiliary functions.R and the dataset data_breast_cancer.csv are located.
@@ -98,14 +117,13 @@ All Tables (5, 6 and 7) and Figures (2, 3, 4 and 5) will be saved in the working
 
 
 
--------------------------------------------------------------------
-Computational Requirements
+## Computational Requirements
 R version: R- 4.5.1 (or higher) 
 Operating system: Windows 
 The analyses were conducted using base R and freely available CRAN packages.
 
-----
-Required R Packages
+ 
+## Required R Packages
 The following R packages are required to run the codes:
 R version 4.5.1 (2025-06-13 ucrt)
 Platform: x86_64-w64-mingw32/x64

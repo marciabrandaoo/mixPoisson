@@ -29,13 +29,13 @@ Reproducing Tables 1 and 2 – Section 4.1 (Performance of the ML estimators in 
 
 Step 3 (option A – full simulation). Source the file:
 ```r
-source("Simulator - Performance of the ML estimators in finite samples.R")
+source("simulation/Simulator - Performance of the ML estimators in finite samples.R")
 
 ```
 
 Step 3 (option B – precomputed results). Alternatively, load the RData file provided by the authors:
 ```r
-load("MC-Study-MPIG_MNBcr.RData")
+load("simulation/MC-Study-MPIG_MNBcr.RData")
 
 ```
 
@@ -49,13 +49,13 @@ sim_MC_results2
 Reproducing Table 3 – Section 4.2 (Misspecification model)
 Step 4 (option A – full simulation). Source the file:
 ```r
-source("Simulator - Misspecification model.R")
+source("simulation/Simulator - Misspecification model.R")
 
 ```
 
 Step 4 (option B – precomputed results). Alternatively, load the RData file provided by the authors:
 ```r
-load("MC-Study-Misspecification-MIG-MGA-POI.RData")
+load("simulation/MC-Study-Misspecification-MIG-MGA-POI.RData")
 
 ```
 

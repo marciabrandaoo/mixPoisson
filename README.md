@@ -186,3 +186,7 @@ loaded via a namespace (and not attached):
 [64] broom_1.0.10        MatrixModels_0.5-4  gridExtra_2.3       xfun_0.54           fs_1.6.6            zoo_1.8-14          pkgconfig_2.0.3 
 
 
+
+## Versioning
+
+The results presented in the manuscript correspond to **Release v1.0** of this repository.

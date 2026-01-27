@@ -91,14 +91,14 @@ Reproducing Table 4 – Section 5 (Application to medical dataset)
 Step 4 (option A – full analysis).
 Source the file:
 ```r
-source("application_breast_cancer_table_selection_criteria.R")
+source("application/application_breast_cancer_table_selection_criteria.R")
 
 ```
 
 Step 4 (option B – precomputed results).
 Alternatively, load the RData file provided by the authors:
 ```r
-load("Application-Table-Selection_criteria.RData")
+load("application/Application-Table-Selection_criteria.RData")
 
 ```
 Then run:
@@ -111,14 +111,14 @@ Reproducing Tables 5, 6 and 7, and Figures 2, 3, 4 and 5 – Section 5
 Step 5 (option A – full analysis).
 Source the file:
 ```r
-source("Application_breast_cancer-MPIGcr and PTcr.R")
+source("application/Application_breast_cancer-MPIGcr and PTcr.R")
 
 ```
 
 Step 6.
 Source the file:
 ```r
-source("Application_breast_cancer_tables_figures.R")
+source("application/Application_breast_cancer_tables_figures.R")
 
 ```
 or
@@ -126,14 +126,14 @@ or
 Step 5 (option B – precomputed results).
 Alternatively, load the RData file provided by the authors:
 ```r
-load("Application_breast_cancer_MPIG_POISSON.RData")
+load("application/Application_breast_cancer_MPIG_POISSON.RData")
 
 ```
 
 Step 6.
 Source the file:
 ```r
-source("Application_breast_cancer_tables_figures.R")
+source("application/Application_breast_cancer_tables_figures.R")
 
 ```
 

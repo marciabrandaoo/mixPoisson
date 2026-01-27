@@ -6,3 +6,5 @@
 *.png
 *.csv
 !data_breast_cancer.csv
+!MC-Study-MPIG_MNBcr.RData
+!MC-Study-Misspecification-MIG-MGA-POI.RData

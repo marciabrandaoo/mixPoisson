@@ -83,7 +83,7 @@ source("auxiliary_functions.R")
 ```
 Step 3. Load the dataset:
 ```r
-data_BC <- read.csv("data_breast_cancer.csv", sep = ",")
+data_BC <- read.csv("data/data_breast_cancer.csv", sep = ",")
 
 ```
 

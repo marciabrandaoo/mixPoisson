@@ -15,12 +15,12 @@ To reproduce the corresponding results of application and simulation studies in 
  
 The simulation study described in Section 4 of the article can be reproduced by running the scripts below in the specified order.
 
-Step 1. Set your working directory to the folder where the file auxiliary functions.R is located.
+Step 1. Set your working directory to the folder where the file auxiliary_functions.R is located.
 
 Step 2. Source the auxiliary functions file:
 
 ```r
-source("auxiliary functions.R")
+source("auxiliary_functions.R")
 
 ```
 

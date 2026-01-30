@@ -47,6 +47,7 @@ sim_MC_results2
 ```
 
 Reproducing Table 3 – Section 4.2 (Misspecification model)
+
 Step 4 (option A – full simulation). Source the file:
 ```r
 source("simulation/Simulator - Misspecification model.R")
@@ -76,11 +77,13 @@ All simulation scripts set fixed random seeds at the beginning of execution to e
 The application results presented in Section 5 of the article can be reproduced by running the scripts below in the specified order.
 
 Step 1. Set your working directory to the folder where the file auxiliary functions.R and the dataset data_breast_cancer.csv are located.
+
 Step 2. Source the auxiliary functions file:
 ```r
 source("auxiliary_functions.R")
 
 ```
+
 Step 3. Load the dataset:
 ```r
 data_BC <- read.csv("data/data_breast_cancer.csv", sep = ",")
@@ -88,6 +91,7 @@ data_BC <- read.csv("data/data_breast_cancer.csv", sep = ",")
 ```
 
 Reproducing Table 4 – Section 5 (Application to medical dataset)
+
 Step 4 (option A – full analysis).
 Source the file:
 ```r
@@ -96,6 +100,7 @@ source("application/application_breast_cancer_table_selection_criteria.R")
 ```
 
 Step 4 (option B – precomputed results).
+
 Alternatively, load the RData file provided by the authors:
 ```r
 load("application/Application-Table-Selection_criteria.RData")
@@ -106,6 +111,7 @@ Then run:
 criterios_df
 
 ```
+
 Reproducing Tables 5, 6 and 7, and Figures 2, 3, 4 and 5 – Section 5
 
 Step 5 (option A – full analysis).
